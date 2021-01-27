@@ -142,7 +142,29 @@ hr {
 
 
 @media (max-width: 375px) {
-    * {
-        color: red;
+    .backgroundTopLeft {
+        top: -21%;
+        left: -57%;
+        max-width: 115%;
+    }
+
+    .backgroundBottomRight {
+        bottom: -12%;
+        right: -60%;
+        max-width: 122%;
+    }
+
+    .container {
+        width: 95%;
+        overflow: hidden;
+    } 
+
+    .social {
+        justify-content: center;
+    } 
+
+    .social > div{
+        margin: 0 1.5rem 0 1.5rem;
+        text-align: center;
     }
 }
